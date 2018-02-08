@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-from flexbe_core import EventState, Logger
+from flexbe_core import EventState
 from flexbe_core.proxy import ProxyPublisher
 from std_msgs.msg import String
 

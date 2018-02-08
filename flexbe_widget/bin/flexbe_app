@@ -1,4 +1,8 @@
-#!/bin/bash
+
+# DEPRECATED
+# Chrome app will be removed soon, please switch to https://github.com/flexbe/flexbe_app
+
+
 if [ -z ${FLEXBE_ID} ]; then
   # use official flexbe app id
   FLEXBE_ID=ofahdhifmkhpmlkhcpbhjkagkkoofeco
