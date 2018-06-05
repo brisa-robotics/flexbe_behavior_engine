@@ -25,6 +25,10 @@ catkin_package(
 #install(PROGRAMS bin/hello
 #        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
+# This installation of the src directory is redundant (modules are installed by
+# setup.py) but is necessary for the FlexBE App to find the states.
+install(DIRECTORY src DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
 # run tests
 if(CATKIN_ENABLE_TESTING)
 	find_package(rostest REQUIRED)
